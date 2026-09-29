@@ -1,3 +1,32 @@
 body{
-    background-color:rgba(#73e046);
+    background-color: rgb(27, 168, 181);
+    font-family: "Fontdiner Swanky", serif;
+}
+
+header.primary{
+    background-color: rgb(231, 95, 234);
+    color:rgb(215, 216, 69);
+    text-align: center;
+    text-shadow:1px 1px #000000;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+header.primary a{
+    color:rgb(63, 130, 72) ;
+    text-decoration: none;
+}
+
+header.primary h1{
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+header.primary p.subtitle{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+nav.primary ul{
+
+}
+nav.primary ul li{
+    list-style-type: none;
 }
