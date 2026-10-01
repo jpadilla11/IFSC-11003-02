@@ -55,3 +55,10 @@ nav.primary ul li a:hover{
     justify-content: center;
 }
 }
+
+/* -------- Utility Classes -------- */
+.container{
+    width:80vw;
+    max-width: 960px;
+    margin: 40px auto;
+}
