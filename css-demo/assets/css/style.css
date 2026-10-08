@@ -143,14 +143,39 @@ nav.primary ul li a:hover{
     color:#0080ff9d;
 }
 
+aside[aria-label="Sidebar"]{
+  background-color: #2b2b2b;
+  padding: 20px 0;
+}
 
+aside div.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
 
+aside div.container a:last-child{
+  display:block;
+  margin-top:10px;
+  text-align:right;
+}
 
+aside div.container a{
+  color:white;
+}
 
+aside .widget footer{
+  display:none;
+}
 
-
-
-
+footer.primary{
+  background-color: #191919;
+  padding: 1px;
+  color:#ffffff;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+}
 
 
 
